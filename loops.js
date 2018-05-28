@@ -7,3 +7,12 @@ function forLoop(array){
   }
     return array 
 }
+
+function whileLoop(number){
+  let i = number;
+  while(i > 0){
+    console.log(--i)
+  }
+  
+  console.log("done")
+}
