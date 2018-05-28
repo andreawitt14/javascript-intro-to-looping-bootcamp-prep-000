@@ -14,5 +14,7 @@ function whileLoop(number){
     console.log(--i)
   }
   
-  console.log("done")
+  if i == 0
+    return "done"
+  
 }
